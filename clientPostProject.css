@@ -1,0 +1,133 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body{
+    background: url("./Images/solidpixels-iq2RzBMj-Wg-unsplash.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10;
+}
+
+header nav{
+    background-color: black;
+}
+
+.container{
+   margin: 200px 400px;
+   border: 2px solid white;
+   padding: 34px 39px;
+   border-radius: 50px;
+   opacity: 6;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container form .one .inputOne,.container form .one .inputTwo{
+    padding: 18px 59px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.container form .one,.container form .three,.container form .five{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container form .two textarea,.container form .four,.container form .six textarea{ 
+    width: 100%;
+}
+
+.container form .two,.container form .three,.container form .four,.container form .five,.container form .six,.container form .seven{
+    margin-top: 20px;
+    
+}
+
+.container form .three input,.container form .five input{
+    padding: 20px 20px;
+}
+
+.container form .seven input{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+    margin-left: 120px;
+    width: 60%;
+}
+
+.container form .five select{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.container form .seven input:hover{
+    color: red;
+    border: 2px solid red;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.container form .four{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.container form .two textarea{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.container form .three input{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.container form .four input{
+    margin-left: 10px;
+}
+
+.container form .five input{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.container form .six textarea{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.container form .four input:hover{
+    cursor: pointer;
+}

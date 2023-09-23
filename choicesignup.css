@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+}
+::selection{
+  color: #fff;
+}
+
+header{
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Images/Header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh; 
+}
+
+.logo img{
+  float: left;
+  padding: 35px 15px;
+  width: 210px;
+  height: auto;
+}
+
+.main{
+  max-width: 1400px;
+  margin: auto;
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  width: 750px;
+  height: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+.wrappertitle-text{
+  text-align: center;
+  margin-right: 50px;
+  display: flex;
+  width: 200%;
+  overflow: hidden;
+}
+.wrapper .title{
+  margin-top: 20px;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.button{
+  display: flex;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contain{
+  display: flex;
+  justify-content: center;
+}
+
+.client{
+  background: #E4EBE4;
+  width: 290px;
+  height: 210px;
+  margin: 15px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.client-image{
+  height: 65px;
+  width: 85px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 120px;
+  background-position: center;
+}
+
+.car-1{
+  background-image: url('./Images/undraw_confirmation_re_b6q5.svg');
+  padding: 10px;
+  
+}
+
+.car-2{
+  background-image: url('./Images/undraw_freelancer_re_irh4.svg');
+  padding: 35px;
+}
+
+.client h2{
+  padding: 10px;
+  font-size: 18px;
+  color: #d62d2d;
+  text-align: center;
+}
+
+.client:hover{
+  background-color: #C7D6C7;
+  transition: 0.6s ease;
+}
+
+.client--selected{
+  background-color: #000;
+}
+
+.btn{
+  padding: 10px 30px;
+  color: grey;
+  background-color: #E4EBE4;
+  text-decoration: none;
+  transition: 0.6s ease;
+  margin-top: 32px;
+  
+}
+
+.border{
+  border: 2px solid black;
+}
+
+.btn:hover{
+  cursor:not-allowed;
+
+}
+
+.able:hover{
+  background-color: #d62d2d;
+  color: #fff;
+}
+
+.signup-link{
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 75px;
+  color: #d62d2d;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.signup-link h3{
+  display: inline;
+  font-weight: 100;
+  color: #000;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="choicesignup.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FreeLation - Making Hiring Extraordinary.</title>
+      <link rel="url icon" href="./Images/url_icon.png">
+      <style>
+
+      </style>
+   </head>
+   <body>
+       
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="./Images/logo.png">
+            </div>
+    </header>
+       
+      <div class="wrapper">
+         <div class="title-text">
+            <div class="title">
+                Join as a client or freelancer
+            </div>
+         </div>
+         <section class="contain">
+            
+            <div class="client" onclick="changeBtn1()">
+                <div class="client-image car-1"></div>
+                <h2>I'm a Client, hiring for a project</a></h2>
+            </div>
+
+            <div class="client" onclick="changeBtn2()">
+                <div class="client-image car-2"></div>
+                <h2>I'm a Freelancer, looking for work</h2>
+            </div>
+            
+            
+
+         </section>
+         <div class="signup-link">
+                     <h3>Already have an account?  </h3><a href="signin.html">Sign In</a>
+                  </div>
+
+                  <div class="button">
+                    <div id="cross"></div>
+                    <a href="" id="btn" class="btn">Create Account</a>
+                </div>
+
+            </div>
+            </div>
+                 
+            </div>
+         </div>
+      </div>
+
+      <script>
+        function changeBtn1(){
+             const btn = document.getElementById("btn");
+             btn.innerHTML = "Join as a Client";
+             btn.style.cursor = "pointer";
+             btn.classList.add("able");
+             btn.style.border="thin solid grey";
+             btn.href = "clientInUp.html";
+             btn.classList.add("borderRadius = 20");
+             btn.style.backgroundColor = "red";
+             btn.style.borderRadius = "10px";
+            }
+            function changeBtn2(){
+                const btn = document.getElementById("btn");
+                btn.innerHTML = "Join as a FreeLancer";
+                btn.style.cursor = "pointer";
+                btn.classList.add("able");
+                btn.href = "freelancerInUp.html";
+                btn.classList.add("borderRadius = 20");
+                btn.style.backgroundColor = "red";
+        }
+      </script>
+   </body>
+</html>
